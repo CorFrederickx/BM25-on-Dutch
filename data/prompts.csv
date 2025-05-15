@@ -1,0 +1,705 @@
+query_kind,query_length,complexity_referencing,complexity_reasoning,formatted_prompt
+Descriptive search query,Under 15 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,Under 15 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,Under 15 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,Under 15 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,More than 15 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,More than 15 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,More than 15 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Descriptive search query,More than 15 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a descriptive search query in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a descriptive search phrase expressed in natural language. Avoid questions like 'What is...? or How does...?' and keyword lists. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,Under 15 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,Under 15 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,Under 15 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,Under 15 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,More than 15 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,More than 15 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,More than 15 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Yes-No question,More than 15 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a yes-no question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write closed questions that can be answered with 'yes' or 'no'. Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,Under 15 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,Under 15 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,Under 15 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,Under 15 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be under 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,More than 15 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,More than 15 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,More than 15 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Wh-question,More than 15 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a wh-question in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write open-ended wh-questions starting with who, what, where, when, why, how (or their Dutch equivalents). Each query must be more than 15 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Explicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Explicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should clearly state its intent, explicitly defining what information is needed and leaving no ambiguity about relevance.
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Implicit,Factoid,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should seek a specific fact that can be directly extracted from the document, without requiring synthesis.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
+Legal scenario,More than 45 words,Implicit,Rationale,"
+Based on the following document, available in both English and Dutch, craft a legal scenario in both languages that a user would naturally enter to find its core substantive information via a search engine.
+
+Guidelines concerning the kind, length and complexity of the query:
+    Write a legal scenario describing a situation where a person, company, or authority might need guidance on the legal issue covered in the document. Do not frame the scenario as a direct legal question (e.g., 'Is it legal to...?'). Each query must be more than 45 words.
+    Ensure each query is fully answerable using only the provided document and targets its core substantive content.
+    The query should require combining and integrating multiple pieces of information from the document to form a reasoned, logical answer.
+    The query should imply its informational need without explicitly stating it, requiring inference to determine what information is relevant, thus introducing interpretive effort. An example of such an implicit query: Has the company that proposed X made any recent advancements?”. Explanation: this query is implicit because the query does not directly name the company. The retrieval system must first infer what “the company that proposed X” refers to
+    
+Restrictions:
+    Do not frame queries as if the user assumes the document's existence. Suppose the user is searching for information broadly.
+    Avoid general references to organizations (for example: EU, EEG, EEC), document numbers or codes (for example: 2001/106/EC) and broad administrative terms (for example: regulation, decision) unless they are essential to the core content.
+    Do not translate the English and Dutch queries from each other. Instead, generate them separately to retrieve the same content naturally in each language. Use the precise wording found in the document in the respective language whenever possible.
+
+Provided documents:
+    English document: {text_en}
+    Dutch document: {text_nl}
+
+Response format:
+    English: <English query>
+    Dutch: <Dutch query>
+"
