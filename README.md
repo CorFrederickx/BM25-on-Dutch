@@ -1,7 +1,7 @@
 # BM25-on-Dutch
 
 This repository contains the code and data for the master’s thesis:  
-**"The Performance of BM25 in a Dutch Retrieval Setting (An Empirical Study on Parallel Legal Corpora Using Synthetic Queries)"**
+**"BM25 Across the Language Barrier (Comparing Lexical Retrieval Performance on English and Dutch Legal Texts)"**
 
 Despite its age, BM25 remains a strong baseline in information retrieval. This thesis investigates its performance in Dutch, using synthetic queries on the parallel legal corpus [MultiEURLEX](https://huggingface.co/datasets/coastalcph/multi_eurlex). We find that BM25 performs comparably in Dutch and English when lexical alignment between queries and documents is preserved, but performance drops significantly when using machine-translated queries.
 
@@ -42,4 +42,4 @@ To reproduce the results from the thesis, do not run the final cell in each note
 
 ### Overview
 
-![Workflow diagram](img/thesis_outline.png)
+![Workflow diagram](img/thesis_outline_2.png)
