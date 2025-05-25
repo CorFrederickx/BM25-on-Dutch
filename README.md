@@ -1,9 +1,9 @@
 # BM25-on-Dutch
 
 This repository contains the code and data for the master’s thesis:  
-**"BM25 Across the Language Barrier (Comparing Lexical Retrieval Performance on English and Dutch Legal Texts)"**
+**"BM25 Across the Language Barrier: Comparing Lexical Retrieval Performance on English and Dutch Legal Texts"**
 
-Despite its age, BM25 remains a strong baseline in information retrieval. This thesis investigates its performance in Dutch, using synthetic queries on the parallel legal corpus [MultiEURLEX](https://huggingface.co/datasets/coastalcph/multi_eurlex). We find that BM25 performs comparably in Dutch and English when lexical alignment between queries and documents is preserved, but performance drops significantly when using machine-translated queries.
+Despite its age, BM25 remains a strong baseline in information retrieval. This thesis explores its performance on Dutch compared to English, using synthetic queries generated for the parallel legal corpus [MultiEURLEX](https://huggingface.co/datasets/coastalcph/multi_eurlex). The experiment is repeated with machine-translated versions of these queries. We find that BM25 performs similarly in Dutch and English when lexical alignment between queries and documents is preserved.
 
 ---
 
@@ -30,7 +30,7 @@ To reproduce the results from the thesis, do not run the final cell in each note
   Includes statistical significance testing (Mann-Whitney U test).
 
 - **`4b_BM25_grid_search.ipynb`**  
-  Performs grid search to tune BM25 hyperparameters (`k`, `b`) for both Dutch and English.
+  Performs grid search to tune BM25 hyperparameters (`k`, `b`) for both English and Dutch.
 
 - **`5_the_translation_part.ipynb`**  
   Translates synthetic queries using Gemini to assess the impact of machine translation on BM25 performance.
